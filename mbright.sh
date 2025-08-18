@@ -4,7 +4,7 @@
 
 # Configure your device name
 # Run "brightnessctl -l" to get list of devices
-DEVICE_NAME="intel_backlight"  
+DEVICE_NAME=""  #your device name here
 
 max=$( brightnessctl -d "$DEVICE_NAME" m ) || {
     echo "The device $DEVICE_NAME doesn't exist or brightnessctl is not installed." >&2
