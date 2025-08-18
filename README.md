@@ -20,17 +20,18 @@ ls /sys/class/backlight
 brightnessctl -l
 ```
 
-4. If you want to access it as a normal command put it in somewhere in your path like `/usr/local/bin/<the name you want>`. I've called it `mbright` because there were some problems with just calling it brightness.
+4. If you want to access it as a normal command put it in somewhere in your path like `/usr/local/bin/<the name you want>`. 
+I've just chose the name `bright` because it's short and simple.
 
 
 
 ## Usage
 
-- `mbright ++`: Increase brightness by 10%
+- `bright ++`: Increase brightness by 10%
 
-- `mbright --`: Decrease brightness by 10%
+- `bright --`: Decrease brightness by 10%
 
-- `mbright <digit>`: Set brightness to given percentage `0 <= digit <= 100`!!
+- `bright <digit>`: Set brightness to given percentage `0 <= digit <= 100`!!
 
 > [!WARNING]
 > If you set your brightness to 0 the screen will turn black
