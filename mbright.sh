@@ -25,7 +25,7 @@ case "$1" in
     *)
         if [[ $1 =~ ^[0-9]+$ && $1 -ge 0 && $1 -le 100 ]]; then
             level=$(( $1 * max / 100 ))
-            brightnessctl -d "$DEVICE_NAME" s "$level" || echo "❌ ¿Necesitas sudo?" >&2
+            brightnessctl -d "$DEVICE_NAME" s "$level" 
         else
             echo "Usage: brightness [ ++ | -- | 0-100 ]" >&2
             exit 1
