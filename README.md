@@ -32,5 +32,5 @@ brightnessctl -l
 
 - `mbright <digit>`: Set brightness to given percentage `0 <= digit <= 100`!!
 
-> [!CAUTION]
+> [!WARNING]
 > If you set your brightness to 0 the screen will turn black
