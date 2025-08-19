@@ -4,10 +4,13 @@ A really simple brightnessctl wrapper to easily manage your screen brightness th
 
 ## Instalation
 1. **Dependencies**: Ensure  `brightnessctl`is installed.
+
+Debian/Ubuntu
 ```bash
-   # Debian/Ubuntu
    sudo apt install brightnessctl
-   # Arch/Manjaro
+```
+Arch/Manjaro
+```bash
    sudo pacman -S brightnessctl
 ```
 2. **Download the script**: Just`download` the script from Github or `clone`the repo.
