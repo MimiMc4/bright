@@ -21,7 +21,7 @@ brightnessctl -l
 ```
 
 4. If you want to access it as a normal command put it in somewhere in your path like `/usr/local/bin/<the name you want>`. 
-I've just chose the name `bright` because it's short and simple.
+I've just chosen the name `bright` because it's short and simple.
 
 
 
