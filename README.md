@@ -12,7 +12,7 @@ A really simple brightnessctl wrapper to easily manage your screen brightness th
 ```
 2. **Download the script**: Just`download` the script from Github or `clone`the repo.
 
-3. **Modify the script** to use the propper device. You have to manually set the `DEVICE_NAME`variable. To get the name of your screen brightness device you can do one of these commands:
+3. **Modify the script** to use the propper device. You have to manually set the `DEVICE_NAME`variable. To get the name of your screen brightness device you can run one of these commands:
 ```bash
 ls /sys/class/backlight
 ```
